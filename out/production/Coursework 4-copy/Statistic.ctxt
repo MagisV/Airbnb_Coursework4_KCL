@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Statistic
+comment0.text=\r\n\ Class\ Statistic\ -\ Represents\ a\ type\ of\ statistic.\r\n\ The\ specific\ implementations\ of\ the\ statistics\ are\ provided\ in\ the\ inheriting\ subclasses.\r\n\ @author\ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Get\ the\ name\ of\ the\ statistic.\ Displayed\ in\ the\ label\ of\ a\ statistics\ panel.\r\n\ @return\ The\ name\ of\ the\ statistic.\r\n
+comment2.params=
+comment2.target=javafx.scene.Node\ getStatistic()
+comment2.text=\r\n\ Get\ the\ result\ of\ the\ statistics\ calculation.\r\n\ @return\ The\ node\ to\ he\ displayed\ in\ the\ statspanel\r\n
+comment3.params=listings
+comment3.target=void\ updateStatistic(java.util.ArrayList)
+comment3.text=\r\n\ Update\ the\ current\ statistic.\r\n\ @param\ listings\ The\ listings\ to\ calculate\ the\ statistic\ for.\r\n
+numComments=4

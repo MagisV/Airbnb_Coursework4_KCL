@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FilterNames
+comment0.text=\r\n\ Enum\ FilterNames\ -\ Makes\ the\ connection\ of\ the\ filters\ "pool",\ "private\ room",\ "superhost"\ and\ "Wifi"\ typo-safe.\r\n\ Used\ in\ the\ MainFrameController\ and\ the\ BoroughPropertiesViewer\ to\ specify\ the\ active\ filters\ filtered\ for\ in\ the\ Listings.\r\n
+comment1.params=displayName
+comment1.target=FilterNames(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Use\ to\ get\ the\ display\ value.\r\n\ @return\ The\ display\ value\ of\ a\ constant.\r\n
+comment3.params=name
+comment3.target=FilterNames\ getFilter(java.lang.String)
+comment3.text=\r\n\ Get\ a\ constant\ by\ its\ name.\r\n\ @param\ name\ The\ name\ of\ the\ requested\ constant.\r\n\ @return\ The\ constant.\r\n
+numComments=4

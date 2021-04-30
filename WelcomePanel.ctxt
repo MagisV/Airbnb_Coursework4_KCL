@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=WelcomePanel
+comment0.text=\r\n\ The\ WelcomePanelClass\ -\ This\ contentPanel\ is\ first\ shown\ in\ the\ MainFrame.\ It\ welcomes\ the\ user.\r\n\ The\ user\ has\ to\ enter\ a\ search\ request\ (and\ select\ a\ price\ range\ in\ the\ MainFrame)\ to\ be\ able\ to\ switch\ to\ other\ panels.\r\n\ For\ the\ search,\ the\ user\ can\ select\ arrival\ and\ departure\ date\ and\ number\ of\ guests.\r\n\r\n\ @author\ Vandad\ Vafai\ Tabrizi,\ Rahin\ Ashraf,\ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=
+comment1.target=WelcomePanel()
+comment1.text=\r\n\ Create\ the\ welcome\ panel\ internals.\r\n
+comment2.params=listings\ currentUser
+comment2.target=void\ initializeData(Listings,\ Account)
+comment2.text=\r\n\ Implements\ the\ abstract\ method\ in\ MainframeContentPanel.\r\n\ Gives\ this\ panel\ a\ reference\ to\ the\ listings\ and\ the\ current\ user\ to\ get/manipulate\ data.\r\n\ @param\ listings\ The\ listings.\r\n\ @param\ currentUser\ The\ currently\ logged\ in\ user.\r\n
+comment3.params=
+comment3.target=void\ updatePanel()
+comment3.text=\r\n\ Update\ the\ current\ panel.\ The\ welcome\ panel\ does\ not\ display\ anything\ related\ to\ the\ user\ or\ the\ the\ statistics\r\n\ and\ therefore\ no\ action\ is\ performed\ here.\r\n
+comment4.params=e
+comment4.target=void\ setSubmitButton(javafx.event.ActionEvent)
+comment4.text=\r\n\ Saves\ the\ data\ and\ moves\ it\ on\ to\ the\ booking\ panel.\r\n\ @param\ e\r\n
+comment5.params=
+comment5.target=boolean\ checkEntries()
+comment5.text=\r\n\ Safety\ check\ before\ booking.\ Dates,\ if\ entered,\ have\ to\ be\ valid\ already\ because\ of\ the\ live\ checking.\r\n\ If\ not\ entered,\ an\ alert\ is\ displayed.\r\n\ @return\ If\ all\ fields\ have\ been\ entered\ and\ if\ the\ number\ of\ guests\ is\ valid.\r\n
+comment6.params=e
+comment6.target=void\ setDate(javafx.event.ActionEvent)
+comment6.text=\r\n\ Live\ check\ if\ the\ entered\ dates\ are\ valid.\r\n\ @param\ e\r\n
+comment7.params=min\ max
+comment7.target=void\ setPriceRangeLabels(java.lang.Integer,\ java.lang.Integer)
+comment7.text=\r\n\ Set\ labels\ displaying\ the\ price\ range\r\n\ @param\ min\ The\ String\ of\ the\ minimum\ price\ range.\r\n\ @param\ max\ The\ String\ of\ the\ maximum\ price\ range.\r\n
+numComments=8

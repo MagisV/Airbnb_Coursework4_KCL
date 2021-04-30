@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=StatisticsPanelController
+comment0.text=\r\n\ Class\ StatisticsPanelController\ -\ The\ statisticspanel\ is\ displayed\ within\ the\ mainframe\ and\ shows\ different\ statistics\r\n\ about\ the\ currently\ filtered\ data.\ It\ contains\ four\ "StatsPanelElements"\ which\ themselves\ communicate\ with\ the\ statistic\ currently\ shown\ in\ them.\r\n\ This\ class\ supplies\ the\ gui\ for\ displaying\ the\ content\ and\ coordinates\ StatsPanelElements.\r\n\ @author\ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=
+comment1.target=StatisticsPanelController()
+comment1.text=\r\n\ Create\ a\ new\r\n
+comment2.params=listings\ currentUser
+comment2.target=void\ initializeData(Listings,\ Account)
+comment2.text=\r\n\ Initialize\ the\ statistics\ panel.\r\n\ @param\ listings\ The\ listings\ to\ be\ used\ for\ the\ statistics\ initially.\r\n\ @param\ currentUser\ The\ current\ user.\r\n
+comment3.params=event
+comment3.target=void\ buttonClicked(javafx.event.ActionEvent)
+comment3.text=\r\n\ Depending\ on\ which\ button\ has\ been\ clicked,\ the\ chosen\ panel\ shows\ the\ \u00B4previous\ or\ the\ next\ statistic.\r\n\ @param\ event\r\n
+comment4.params=panel
+comment4.target=void\ nextStat(StatsPanelElement)
+comment4.text=\r\n\ Invokes\ that\ the\ given\ panel\ loads\ the\ next\ statistic\ and\ accordingly\ updates\ the\ lists\ of\ available\ statistics\ of\ the\ other\ panels.\r\n
+comment5.params=panel
+comment5.target=void\ prevStat(StatsPanelElement)
+comment5.text=\r\n\ Invokes\ that\ the\ given\ panel\ loads\ the\ previous\ statistic\ and\ accordingly\ updates\ the\ lists\ of\ available\ statistics\ of\ the\ other\ panels.\r\n
+comment6.params=currentPanel\ removedStat\ displayedStat
+comment6.target=void\ updateOtherPanels(StatsPanelElement,\ Statistic,\ Statistic)
+comment6.text=\r\n\ Remove\ the\ nextstat\ from\ the\ other\ lists\ (will\ now\ be\ shown\ here\ and\ therefore\ should\ not\ be\ shown\ in\ other)\r\n\ Add\ the\ currentstat\ to\ the\ other\ lists\ (not\ displayed\ anymore,\ can\ be\ shown\ by\ others\ now)\r\n\ @param\ currentPanel\ The\ panel\ the\ action\ is\ applied\ on.\r\n\ @param\ removedStat\ The\ statistic\ that\ was\ being\ displayed\ and\ is\ now\ removed.\r\n\ @param\ displayedStat\ The\ statistic\ that\ is\ now\ being\ displayed.\r\n
+comment7.params=
+comment7.target=void\ updatePanel()
+comment7.text=\r\n\ Updates\ the\ statistic\ displayed\ in\ each\ panel.\r\n
+numComments=8

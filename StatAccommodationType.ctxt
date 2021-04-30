@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StatAccommodationType
+comment0.text=\r\n\ Class\ AccommodationTypeStat\ is\ the\ statistic\ of\ how\ many\ properties\ in\ the\ set\ of\ data\ are\ of\ the\ type\ "entire\ home\ and\ apartments"\r\n\ @author\ \ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ \ \ 2021-03-11\r\n
+comment1.params=listings
+comment1.target=StatAccommodationType(java.util.ArrayList)
+comment1.text=\r\n\ Create\ an\ object\ for\ the\ statistic\ counting\ the\ number\ of\ entire\ home\ and\ apartments\ listed.\r\n\ @param\ listings\ The\ listings\ to\ calculate\ the\ statistic\ for.\r\n
+comment2.params=listings
+comment2.target=void\ updateStatistic(java.util.ArrayList)
+comment2.text=\r\n\ Update\ the\ statistic\ and\ the\ label\ displaying\ it.\r\n\ @param\ listings\ The\ listings\ the\ statistic\ should\ be\ calculated\ for.\r\n
+numComments=3

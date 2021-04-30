@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=MainframeContentPanel
+comment0.text=\r\n\r\n\ @author\ Valentin\ Magis,\ Barnabas\ Szalai\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=listings\ currentAccount
+comment1.target=void\ initializeData(Listings,\ Account)
+comment1.text=\r\n\ Pass\ on\ the\ loaded\ listings\ and\ the\ current\ user\ to\ this\ contentPanel.\r\n\ Every\ contentPanel\ needs\ either\ both\ or\ one\ of\ them\ to\ run\ correctly.\r\n\ @param\ listings\ The\ listings.\r\n\ @param\ currentAccount\ The\ currently\ logged\ in\ user.\r\n
+comment2.params=
+comment2.target=void\ updatePanel()
+comment2.text=\r\n\ Call\ this\ to\ update\ the\ contents\ of\ the\ current\ panel.\ Used\ when\ the\ filters\ applied\ on\ the\ listings\ are\ changed.\r\n
+comment3.params=
+comment3.target=javafx.scene.Parent\ getPanelRoot()
+comment3.text=\r\n\ Receive\ the\ root\ of\ the\ panel.\r\n\ @return\ The\ root\ of\ the\ panel.\r\n
+comment4.params=controller\ currentUser\ panelRoot\ listings
+comment4.target=void\ initialize(MainFrameController,\ Account,\ javafx.scene.Parent,\ Listings)
+comment4.text=\r\n\ @param\ controller\ The\ main\ window\ controller.\ Used\ to\ communicate\ back\ to\ the\ mainframe.\r\n\ @param\ currentUser\ The\ user\ currently\ logged\ in.\r\n\ @param\ panelRoot\ The\ root\ of\ a\ panel.\ This\ is\ the\ top\ node\ of\ the\ view\ which\ can\ be\ received\ to\ be\ displayed\ in\ the\ mainframe.\r\n\ @param\ listings\ The\ listings.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment6.params=currentUser
+comment6.target=void\ setCurrentUser(Account)
+numComments=7

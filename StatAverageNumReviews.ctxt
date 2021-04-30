@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StatAverageNumReviews
+comment0.text=\r\n\ Class\ AverageNumReviewsStat\ represents\ the\ statistic\ calculating\ the\ average\ number\ of\ reviews\ each\ property\ has\ in\ the\ given\ set\ of\ data.\r\n\ @author\ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=listings
+comment1.target=StatAverageNumReviews(java.util.ArrayList)
+comment1.text=\r\n\ Create\ an\ object\ for\ the\ statistic\ of\ the\ average\ number\ of\ reviews\ per\ property.\r\n\ @param\ listings\ The\ listings\ to\ calculate\ the\ statistic\ for.\r\n
+comment2.params=listings
+comment2.target=void\ updateStatistic(java.util.ArrayList)
+comment2.text=\r\n\ Update\ the\ statistic.\r\n\ @param\ listings\ A\ list\ of\ airbnb\ properties\ the\ statistic\ should\ be\ calculated\ for.\r\n
+numComments=3

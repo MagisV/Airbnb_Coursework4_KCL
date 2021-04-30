@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-lang3-3.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/CW4_Maven/CW4 - EarthBnB/+libs/commons-lang3-3.7.jar!/" />
+      <root url="jar://$USER_HOME$/CW4_Maven/CW4 - EarthBnB/+libs/commons-text-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/CW4_Maven/CW4 - EarthBnB/+libs/controlsfx-11.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/CW4_Maven/CW4 - EarthBnB/+libs/mysql-connector-java-8.0.23.jar!/" />
+      <root url="jar://$USER_HOME$/CW4_Maven/CW4 - EarthBnB/+libs/opencsv-4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

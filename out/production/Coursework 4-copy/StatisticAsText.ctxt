@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StatisticAsText
+comment0.text=\r\n\ Class\ StatisticAsText\ -\ Provides\ a\ label\ for\ all\ statistics\ that\ only\ display\ text.\r\n\ @author\ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=
+comment1.target=StatisticAsText()
+numComments=2

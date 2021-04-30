@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=BookingData
+comment0.text=\r\n\ The\ BookingData\ Class\ stores\ the\ data\ received\ from\ the\ welcome\ panel.\r\n\r\n\ @author\ Barnabas\ Szalai\r\n\ @version\ 1.0\r\n\ @since\ \ \ 2021-03-11\r\n
+comment1.params=checkIn\ checkOut\ numberOfPeople\ bookerID
+comment1.target=BookingData(java.time.LocalDate,\ java.time.LocalDate,\ int,\ int)
+comment1.text=\r\n\ A\ constructor\ for\ the\ class\ BookingData.\r\n\ @param\ checkIn\ the\ date\ the\ user\ checks\ in\r\n\ @param\ checkOut\ the\ date\ the\ user\ checks\ out\r\n\ @param\ numberOfPeople\ the\ number\ of\ guests\ the\ user\ enters\r\n\ @param\ bookerID\ the\ user's\ ID\r\n
+comment10.params=
+comment10.target=int\ getDaysOfStay()
+comment2.params=
+comment2.target=BookingData()
+comment3.params=
+comment3.target=java.time.LocalDate\ getCheckIn()
+comment4.params=checkIn
+comment4.target=void\ setCheckIn(java.time.LocalDate)
+comment5.params=
+comment5.target=java.time.LocalDate\ getCheckOut()
+comment6.params=checkOut
+comment6.target=void\ setCheckOut(java.time.LocalDate)
+comment7.params=
+comment7.target=int\ getNumberOfPeople()
+comment8.params=numberOfPeople
+comment8.target=void\ setNumberOfPeople(int)
+comment8.text=\r\n\ Sets\ the\ number\ of\ guests\ the\ user\ has\ entered.\r\n\r\n\ @param\ numberOfPeople\ \ the\ number\ of\ guests\ the\ user\ enters\r\n\ @throws\ InvalidParameterException\ \ if\ the\ number\ of\ guests\ are\ negative\ numbers\r\n
+comment9.params=bookerID
+comment9.target=void\ setBookerID(int)
+numComments=11

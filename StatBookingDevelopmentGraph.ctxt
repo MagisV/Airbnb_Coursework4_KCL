@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StatBookingDevelopmentGraph
+comment0.text=\r\n\ Class\ StatBookingDevelopmentGraph\ -\ Creates\ a\ Linegraph\ of\ the\ all\ monthly\ bookings\ of\ all\ users,\r\n\ either\ from\ the\ online\ database\ or\ from\ the\ offline\ generated\ dummy\ data.\r\n\r\n\ Differentiates\ between\ bookings\ of\ listings\ where\ the\ host\ is\ a\ superhost\ and\ where\ he\ is\ not.\r\n\ @author\ Valentin\ Magis\r\n\ @version\ 1.0\r\n\ @since\ 2021-03-11\r\n
+comment1.params=listings
+comment1.target=StatBookingDevelopmentGraph(java.util.ArrayList)
+comment1.text=\r\n\ Create\ an\ object\ for\ the\ statistic\ and\ create\ the\ first\ graph.\r\n\ @param\ listings\ The\ listings\ to\ create\ the\ graph\ for.\r\n
+comment2.params=listings
+comment2.target=void\ updateStatistic(java.util.ArrayList)
+comment2.text=\r\n\ Update\ the\ statistic.\r\n\ @param\ listings\ A\ list\ of\ boroughListings\ the\ statistic\ should\ be\ calculated\ for.\r\n
+comment3.params=superhostCounter\ notSuperhostCounter
+comment3.target=void\ setCategoriesManually(java.util.TreeMap,\ java.util.TreeMap)
+comment3.text=\r\n\ Implemented\ because\ the\ automatic\ ordering\ of\ the\ LineChart\ is\ buggy.\r\n\ Solution\ suggested\ by\ Galya,\ https\://stackoverflow.com/questions/19264919/javafx-linechart-areachart-wrong-sorted-values-on-x-axis-categoryaxis\r\n\ @param\ superhostCounter\ The\ counter\ of\ the\ superhost.\r\n\ @param\ notSuperhostCounter\ The\ counter\ of\ the\ nonSuperhosts\r\n
+comment4.params=
+comment4.target=java.util.HashSet\ getArrivalDates()
+comment4.text=\r\n\ Return\ the\ arrival\ dates\ and\ listingsId\ of\ all\ Bookings,\ either\ from\ offline\ or\ from\ the\ database.\r\n\ @return\ A\ set\ of\ IDDatePair\ specifying\ all\ bookings\ that\ have\ been\ made\ in\ the\ system.\r\n
+numComments=5
