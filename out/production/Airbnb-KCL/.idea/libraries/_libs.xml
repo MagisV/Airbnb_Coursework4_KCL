@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="+libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/mysql-connector-java-8.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/commons-text-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/controlsfx-11.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/src.zip!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/commons-lang3-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/opencsv-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Coursework 4-copy/+libs/javafx.web.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

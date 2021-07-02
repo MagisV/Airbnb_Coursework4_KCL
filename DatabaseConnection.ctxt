@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=DatabaseConnection
-comment0.text=\r\n\ This\ class\ provides\ a\ model\ that\ connects\ to\ the\ database.\ This\ class\ can\ be\ instantiated\ every\ time\ a\r\n\ database\ query\ has\ to\ be\ executed.\r\n\r\n\ @author\ \ Valentin\ Magis,\ Rahin\ Ashraf,\ Vandad\ Vafai\ Tabrizi,\ Barnabas\ Szalai\r\n\ @version\ 1.0\r\n\ @since\ \ \ 2021-03-11\r\n
-comment1.params=
-comment1.target=java.sql.Connection\ getConnection()
-comment1.text=\r\n\ This\ method\ calls\ the\ DriverManager\ class\ which\ manages\ the\ jdbc\ drivers\ to\ establish\r\n\ a\ connection\ with\ the\ database\ using\ the\ URL,\ username\ and\ the\ password.\ It\ uses\ SQLException\ in\ case\ the\r\n\ database\ cannot\ be\ accessed.\r\n\ @return\ \ Connection\ \ returns\ the\ Connection\ object\ if\ the\ connection\ was\ successful\r\n
-numComments=2
